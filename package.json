@@ -1,5 +1,5 @@
 {
-  "name": "vue-sass",
+  "name": "vue-transitions-example",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -19,6 +19,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0",
     "lint-staged": "^8.1.4",
+    "vue-awesome-dropdown": "^1.0.2",
     "vue-template-compiler": "^2.5.21"
   },
   "eslintConfig": {
@@ -44,14 +45,5 @@
     "> 1%",
     "last 2 versions",
     "not ie <= 8"
-  ],
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
-  "lint-staged": {
-    "*.{js,vue}": [
-      "vue-cli-service lint",
-      "git add"
-    ]
-  }
+  ]
 }
