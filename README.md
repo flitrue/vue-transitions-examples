@@ -1,4 +1,4 @@
-# vue-sass
+# vue-transitions-examples
 
 ## Project setup
 ```
